@@ -1,0 +1,50 @@
+/* General Styling for Navbar */
+header {
+  background-color: #f8f9fa; /* Light background */
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-item {
+  flex: 1; /* Make all list items equal width */
+}
+
+.nav-link {
+  display: block; /* Ensures clickable area is a block */
+  padding: 10px 20px; /* Adds spacing inside the block */
+  text-decoration: none; /* Removes underline */
+  color: #333; /* Default text color */
+  background-color: #f8f9fa; /* Same background as header */
+  border-radius: 5px; /* Rounded edges */
+  transition: background-color 0.3s, color 0.3s; /* Smooth hover effects */
+  text-align: center; /* Centers text in the block */
+}
+
+.nav-link:hover {
+  background-color: #007bff; /* Blue background on hover */
+  color: #fff; /* White text on hover */
+}
+
+.logo-container {
+  display: flex; /* Enables Flexbox */
+  flex-direction: row; /* Aligns children in a column */
+  align-items: center; /* Centers content horizontally */
+  justify-content: center; /* Centers content vertically */
+  gap: 10px; /* Adds spacing between the image and heading */
+}
+
+.logo-container img {
+  width: 70px; /* Ensures the image has a consistent size */
+}
+
+.logo-container h3 {
+  margin: 0; /* Removes default margin around the heading */
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  color: #333; /* Adjust the text color */
+}

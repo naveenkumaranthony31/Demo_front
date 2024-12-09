@@ -1,0 +1,12 @@
+.irctc-contact-info {
+    font-family: Arial, sans-serif;
+  }
+  
+  .irctc-contact-info a {
+    color: #007bff;
+  }
+  
+  .irctc-contact-info a:hover {
+    text-decoration: underline;
+  }
+  

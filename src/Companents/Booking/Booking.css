@@ -1,0 +1,9 @@
+.bookform{
+    width: 600px;
+  }
+  .py-4{
+    background-image: url("../../assets/Images/bgi-rail.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Scales the image to cover the element */
+ 
+  }
