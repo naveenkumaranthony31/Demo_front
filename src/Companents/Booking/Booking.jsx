@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { FaArrowDown } from "react-icons/fa";
 import { FaArrowUp } from "react-icons/fa";
 import { CiCalendarDate } from "react-icons/ci";

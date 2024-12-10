@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Button, Modal, Form, Card } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
