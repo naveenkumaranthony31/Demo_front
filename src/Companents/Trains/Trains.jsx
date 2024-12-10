@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button, Modal } from "react-bootstrap";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./Train.css";
 
 const PopupModal = () => {

@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/Images/Rail-logo.png";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./Navbar.css";
 import Trains from "../Trains/Trains";
 import Login from "../Login/Login"

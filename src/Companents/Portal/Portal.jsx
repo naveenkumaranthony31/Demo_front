@@ -2,7 +2,7 @@ import React from "react";
 import Booking from "../Booking/Booking";
 import Navbar from "../Navbar/Navbar";
 import Contact from "../Contact/Contact";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Portal = () => {
   return (
